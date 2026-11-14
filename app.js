@@ -126,6 +126,7 @@ ${soldOut(p) ? '' : `<button class="btn btn-gold quick" type="button" data-quick
   /* ---------- shop ---------- */
   const shop = $('#shop-grid');
   if(shop){
+    if(matchMedia('(max-width:900px)').matches) $('details.filters')?.removeAttribute('open');
     const params = new URLSearchParams(location.search);
     const cats = [...new Set(P.map(p => p.category))];
     const colors = [...new Set(P.map(p => p.color).filter(Boolean))].sort();

@@ -32,7 +32,7 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="promo" aria-label="Announcements"><div class="promo-window"><div class="promo-track"><span>Free delivery across Pakistan on orders above PKR 15,000</span><span>New bridal collection — book your appointment</span><span>Order easily on WhatsApp · 0329 9848040</span></div></div></div>
+<div class="promo" aria-label="Announcements"><div class="promo-window"><div class="promo-track"><span>Free delivery above PKR 15,000</span><span>New bridal collection — book your appointment</span><span>Order easily on WhatsApp · 0329 9848040</span></div></div></div>
 <header class="site-header">
 <div class="container hdr">
 <div class="hdr-left">
@@ -47,21 +47,21 @@
 </div>
 </div>
 <div class="search-panel"><div class="container"><form action="shop.html" role="search"><label class="visually-hidden" for="q">Search</label><input id="q" name="q" type="search" placeholder="Search bridal, formal, lawn…"><button class="btn btn-gold" type="submit">Search</button></form></div></div>
-<nav class="nav" aria-label="Main"><ul><li><a href="shop.html?sort=new" aria-current="page">New In</a></li><li><a href="shop.html?cat=Bridal">Bridal</a></li><li><a href="shop.html?cat=Formal">Formal</a></li><li><a href="shop.html?cat=Luxury%20Pr%C3%AAt">Luxury Prêt</a></li><li><a href="shop.html?cat=Unstitched">Unstitched</a></li><li><a href="wedding-edit.html">Wedding Edit</a></li><li><a href="journal.html">Journal</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+<nav class="nav" aria-label="Main"><ul><li><a href="shop.html?sort=new" aria-current="page">New In</a></li><li><a href="shop.html?cat=Bridal">Bridal</a></li><li><a href="shop.html?cat=Formal">Formal</a></li><li><a href="shop.html?cat=Luxury%20Pr%C3%AAt">Luxury Prêt</a></li><li><a href="shop.html?cat=Unstitched">Unstitched</a></li><li><a href="wedding-edit.html">Wedding Edit</a></li><li><a href="journal.html">Journal</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li class="m-only"><a href="account.html">My account</a></li></ul></nav>
 </header>
 <main id="main">
 <section class="page-head"><div class="container"><nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / Shop</nav><h1>Shop the Collection</h1><p style="margin:12px auto 0;max-width:560px;color:#EAD7A6">Bridal couture, formal wear, luxury prêt and unstitched — all in one place.</p><div class="ornament"><i></i><b></b><i></i></div></div></section>
 <section class="section" style="padding-top:56px"><div class="container shop-layout">
-<aside class="filters" aria-label="Filters">
+<details class="filters" open aria-label="Filters"><summary>Filters</summary>
 <fieldset><legend>Category</legend><div id="f-cat"></div></fieldset><fieldset><legend>Offers</legend><label><input type="checkbox" id="f-sale" value="sale"> On sale</label></fieldset>
 <fieldset><legend>Price</legend><label><input type="radio" name="price" value="all" checked> All prices</label><label><input type="radio" name="price" value="u25"> Under PKR 25,000</label><label><input type="radio" name="price" value="25-100"> PKR 25,000 – 100,000</label><label><input type="radio" name="price" value="o100"> Above PKR 100,000</label></fieldset>
 <fieldset><legend>Colour</legend><div id="f-color"></div></fieldset>
 <button class="link-btn" type="button" id="clear-filters">Clear all filters</button>
-</aside>
+</details>
 <div>
 <div class="toolbar"><h2 id="shop-title" style="margin:0;font-family:var(--caps);font-size:14px;letter-spacing:3px;color:var(--maroon);font-weight:500">All designs · <span id="result-count"></span></h2>
 <label style="display:flex;align-items:center;gap:10px;font-size:14px;color:var(--muted)">Sort by <select id="sort"><option value="new">Newest first</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select></label></div>
-<div class="grid" id="shop-grid" style="grid-template-columns:repeat(auto-fill,minmax(230px,1fr))"></div>
+<div class="grid" id="shop-grid"></div>
 <div class="empty" id="shop-empty" hidden><p>No designs match these filters.</p></div>
 </div></div></section>
 </main>

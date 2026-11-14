@@ -295,3 +295,62 @@ table.size th{background:var(--maroon);color:var(--ivory);font-weight:500}
 .stock{font-size:14px;color:#1F6B3A;margin:0 0 14px}
 .stock.out{color:var(--maroon)}
 .btn[disabled]{opacity:.5;cursor:not-allowed}
+
+/* ---------- mobile refinements ---------- */
+.promo-window{max-width:100%}
+.promo-track span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hero-content{padding:80px 28px}
+.shop-layout .grid{grid-template-columns:repeat(3,1fr)}
+.filters summary{display:none}
+.m-only{display:none}
+@media (max-width:1100px){.shop-layout .grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:900px){
+  .promo{font-size:10.5px;letter-spacing:1.2px;padding:0 10px}
+  .hdr{gap:4px}
+  .hdr-left,.hdr-right{gap:0}
+  .icon-btn{width:40px;height:40px}
+  .icon-btn svg{width:20px;height:20px}
+  .hdr-right a[href$="account.html"]{display:none}
+  .brand{gap:8px}
+  .brand img{height:34px}
+  .brand-name{white-space:nowrap;font-size:14px;letter-spacing:2px}
+  .brand-sub{font-size:7.5px;letter-spacing:4px;margin-top:4px}
+  .m-only{display:block}
+  .filters{border:1px solid var(--line);background:#fff;padding:0 16px}
+  .filters summary{display:flex;justify-content:space-between;align-items:center;min-height:50px;cursor:pointer;font-family:var(--caps);font-size:13px;letter-spacing:3px;color:var(--maroon);list-style:none}
+  .filters summary::after{content:"+";font-size:20px}
+  .filters[open] summary::after{content:"–"}
+  .filters[open]{padding-bottom:16px}
+  .shop-layout{gap:20px}
+}
+@media (max-width:760px){
+  .container{padding:0 18px}
+  .hero{min-height:72vh}
+  .hero-content{padding:60px 20px 70px}
+  .hero h1{font-size:2.5rem}
+  .hero p{font-size:16px}
+  .btn{padding:0 22px;letter-spacing:2px}
+  .section{padding:60px 0}
+  .shop-layout .grid,.grid{grid-template-columns:repeat(2,1fr);gap:26px 12px}
+  .card h3{font-size:18px}
+  .card-cat{font-size:10px;letter-spacing:2px}
+  .price{font-size:14px}
+  .price s{display:block;margin:0}
+  .wish{width:34px;height:34px}
+  .card-tag{font-size:9.5px;padding:4px 7px;top:8px;left:8px}
+  .tile-body h3{font-size:28px}
+  .usp{gap:16px}
+  .usp b{font-size:11.5px;letter-spacing:1px}
+  .page-head{padding:44px 0 40px}
+  .pdp{padding:24px 0 50px}
+  .pdp .price s{display:inline;margin-left:8px}
+  .cart-item{grid-template-columns:76px 1fr;gap:12px}
+  .cart-item img{width:76px}
+  .cart-item > .price{grid-column:2}
+  .summary{position:static}
+  .wa-strip h2{font-size:26px}
+  .nl-form{flex-direction:column;gap:10px}
+  .nl-form input{border-right:1px solid var(--maroon)}
+  .f-bottom{flex-direction:column}
+  .wa-float{width:52px;height:52px;right:14px;bottom:14px}
+}
