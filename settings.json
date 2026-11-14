@@ -15,7 +15,7 @@
   ]
  },
  "sale": {
-  "enabled": false,
+  "enabled": true,
   "text": "Winter Sale — up to 30% off selected designs"
  },
  "freeDeliveryAbove": 15000,
