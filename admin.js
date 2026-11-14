@@ -6,6 +6,8 @@
   const fmt = n => 'PKR ' + Math.round(Number(n)||0).toLocaleString('en-PK');
   const final = p => p.discount > 0 ? Math.round(p.price * (100 - p.discount) / 100) : p.price;
   const SIZE_SET = ['XS','S','M','L','XL','XXL','Custom','3-Piece','2-Piece','One size'];
+  const SIZE_EXTRA = { 'Footwear':['36','37','38','39','40','41'], 'Bras':['32B','34B','36B','38B','34C','36C','38C'] };
+  const DEPT = {'Ready to Wear':'Women','Luxury Prêt':'Women','Formal':'Women','Unstitched':'Women','Bottoms':'Women','Bridal':'Bridal','Bags & Clutches':'Accessories','Jewellery':'Accessories','Footwear':'Accessories','Shawls & Wraps':'Accessories','Camisoles & Slips':'Innerwear','Bras':'Innerwear','Nightwear':'Innerwear'};
   const STATIC_PAGES = ['', 'shop.html','wedding-edit.html','journal.html','about.html','contact.html','help.html','privacy.html','journal-choosing-your-bridal-lehenga.html','journal-mehndi-outfit-ideas.html','journal-lawn-care-guide.html'];
 
   let cfg = null, products = [], settings = {}, sha = {}, dirty = { products:false, settings:false }, editing = null, draft = null, pendingUploads = 0;
@@ -90,7 +92,7 @@
     const cs = cats();
     $('#fcat').innerHTML = '<option value="">All categories</option>' + cs.map(c => `<option ${c===fc?'selected':''}>${esc(c)}</option>`).join('');
     $('#bulk-cat').innerHTML = '<option value="">All products</option>' + cs.map(c => `<option>${esc(c)}</option>`).join('');
-    $('#cat-list').innerHTML = [...new Set([...cs,'Bridal','Formal','Luxury Prêt','Unstitched','Accessories','Kids'])].map(c => `<option value="${esc(c)}">`).join('');
+    $('#cat-list').innerHTML = [...new Set([...cs,...Object.keys(DEPT)])].map(c => `<option value="${esc(c)}">`).join('');
     $('#color-list').innerHTML = [...new Set([...products.map(p=>p.color).filter(Boolean),'Red','Maroon','Pink','Ivory','White','Black','Blue','Green','Emerald','Purple','Yellow','Gold','Grey','Peach'])].map(c => `<option value="${esc(c)}">`).join('');
     $('#st-total').textContent = products.length;
     $('#st-live').textContent = products.filter(p => !p.hidden).length;
@@ -103,7 +105,7 @@
       return `<tr>
 <td><img src="${imgSrc(p.images?.[0], 120)}" alt=""></td>
 <td><div class="name">${esc(p.name)}</div><div class="hint">${esc(p.sku||'')}${p.badge ? ' · ' + esc(p.badge) : ''}${p.bestSeller ? ' · Best seller' : ''}${p.newArrival ? ' · New' : ''}</div></td>
-<td>${esc(p.category)}</td>
+<td>${esc(p.category)}<div class="hint">${esc(p.department || DEPT[p.category] || '')}</div></td>
 <td class="price">${fmt(final(p))}${p.discount > 0 ? `<s>${fmt(p.price)}</s><div class="hint">-${p.discount}%</div>` : ''}</td>
 <td>${st}</td>
 <td><div class="row-actions">
@@ -129,7 +131,7 @@
     draft = JSON.parse(JSON.stringify(p));
     $('#ed-title').textContent = i >= 0 ? 'Edit product' : 'Add product';
     $('#ed-delete').hidden = i < 0; $('#ed-delete').dataset.armed = '';  $('#ed-delete').textContent = 'Delete product';
-    $('#ed-name').value = p.name || ''; $('#ed-cat').value = p.category || ''; $('#ed-sku').value = p.sku || '';
+    $('#ed-name').value = p.name || ''; $('#ed-cat').value = p.category || ''; $('#ed-dept').value = p.department || DEPT[p.category] || 'Women'; $('#ed-sku').value = p.sku || '';
     $('#ed-price').value = p.price || ''; $('#ed-disc').value = p.discount || 0;
     $('#ed-color').value = p.color || ''; $('#ed-fabric').value = p.fabric || ''; $('#ed-colors').value = (p.colors||[]).join(', ');
     $('#ed-status').value = p.status || 'in_stock'; $('#ed-lead').value = p.leadTime || ''; $('#ed-badge').value = p.badge || '';
@@ -145,9 +147,10 @@
   function updFinal(){ const pr = +$('#ed-price').value || 0, d = Math.min(90, Math.max(0, +$('#ed-disc').value || 0)); $('#ed-final').innerHTML = fmt(d ? pr*(100-d)/100 : pr) + (d ? ` <s class="hint">${fmt(pr)}</s>` : ''); }
   $('#ed-price').addEventListener('input', updFinal); $('#ed-disc').addEventListener('input', updFinal);
   function renderSizes(){
-    const all = [...new Set([...SIZE_SET, ...(draft.sizes||[])])];
+    const all = [...new Set([...SIZE_SET, ...(SIZE_EXTRA[$('#ed-cat').value.trim()]||[]), ...(draft.sizes||[])])];
     $('#ed-sizes').innerHTML = all.map(s => `<label><input type="checkbox" value="${esc(s)}" ${(draft.sizes||[]).includes(s)?'checked':''}> ${esc(s)}</label>`).join('');
   }
+  $('#ed-cat').addEventListener('change', () => { const c = $('#ed-cat').value.trim(); if(DEPT[c]) $('#ed-dept').value = DEPT[c]; if(draft) renderSizes(); });
   $('#ed-sizes').addEventListener('change', () => { draft.sizes = $$('#ed-sizes input:checked').map(i => i.value); });
   $('#ed-size-add').addEventListener('click', () => { const v = $('#ed-size-new').value.trim(); if(!v) return; draft.sizes = [...new Set([...(draft.sizes||[]), v])]; $('#ed-size-new').value = ''; renderSizes(); });
 
@@ -209,7 +212,7 @@
     let id = draft.id;
     if(!id){ id = slug(name); let n = 2; while(products.some(p => p.id === id)) id = slug(name) + '-' + n++; }
     const sku = $('#ed-sku').value.trim() || ('RS-' + cat.replace(/[^A-Za-z]/g,'').slice(0,3).toUpperCase() + '-' + (101 + products.length + Math.floor(Math.random()*900)));
-    const p = { ...draft, id, name, category: cat, sku, price, discount: Math.min(90, Math.max(0, Math.round(+$('#ed-disc').value || 0))),
+    const p = { ...draft, id, name, category: cat, department: $('#ed-dept').value, sku, price, discount: Math.min(90, Math.max(0, Math.round(+$('#ed-disc').value || 0))),
       color: $('#ed-color').value.trim(), fabric: $('#ed-fabric').value.trim(), colors: $('#ed-colors').value.split(',').map(s=>s.trim()).filter(Boolean),
       status: $('#ed-status').value, leadTime: $('#ed-lead').value.trim(), badge: $('#ed-badge').value,
       bestSeller: $('#ed-best').checked, newArrival: $('#ed-new').checked, hidden: $('#ed-hidden').checked,

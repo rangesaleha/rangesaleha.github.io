@@ -29,7 +29,8 @@
   "status": "made_to_order",
   "leadTime": "6–8 weeks",
   "hidden": false,
-  "order": 0
+  "order": 0,
+  "department": "Bridal"
  },
  {
   "id": "shahzadi-red-gharara",
@@ -61,7 +62,8 @@
   "status": "made_to_order",
   "leadTime": "6–8 weeks",
   "hidden": false,
-  "order": 1
+  "order": 1,
+  "department": "Bridal"
  },
  {
   "id": "mehrunisa-farshi-lehenga",
@@ -93,7 +95,8 @@
   "status": "made_to_order",
   "leadTime": "6–8 weeks",
   "hidden": false,
-  "order": 2
+  "order": 2,
+  "department": "Bridal"
  },
  {
   "id": "gulnar-bridal-sharara",
@@ -125,7 +128,8 @@
   "status": "made_to_order",
   "leadTime": "6–8 weeks",
   "hidden": false,
-  "order": 3
+  "order": 3,
+  "department": "Bridal"
  },
  {
   "id": "zarnigar-embroidered-maxi",
@@ -156,7 +160,8 @@
   "status": "in_stock",
   "leadTime": "",
   "hidden": false,
-  "order": 4
+  "order": 4,
+  "department": "Women"
  },
  {
   "id": "shireen-velvet-ensemble",
@@ -187,7 +192,8 @@
   "status": "in_stock",
   "leadTime": "",
   "hidden": false,
-  "order": 5
+  "order": 5,
+  "department": "Women"
  },
  {
   "id": "laal-pari-formal",
@@ -218,7 +224,8 @@
   "status": "in_stock",
   "leadTime": "",
   "hidden": false,
-  "order": 6
+  "order": 6,
+  "department": "Women"
  },
  {
   "id": "nilofar-chiffon-formal",
@@ -249,7 +256,8 @@
   "status": "in_stock",
   "leadTime": "",
   "hidden": false,
-  "order": 7
+  "order": 7,
+  "department": "Women"
  },
  {
   "id": "ayla-organza-kurta-set",
@@ -280,7 +288,8 @@
   "status": "in_stock",
   "leadTime": "",
   "hidden": false,
-  "order": 8
+  "order": 8,
+  "department": "Women"
  },
  {
   "id": "rania-silk-co-ord",
@@ -311,7 +320,8 @@
   "status": "in_stock",
   "leadTime": "",
   "hidden": false,
-  "order": 9
+  "order": 9,
+  "department": "Women"
  },
  {
   "id": "sitara-black-pret",
@@ -342,7 +352,8 @@
   "status": "in_stock",
   "leadTime": "",
   "hidden": false,
-  "order": 10
+  "order": 10,
+  "department": "Women"
  },
  {
   "id": "sunehri-yellow-kurta",
@@ -373,7 +384,8 @@
   "status": "in_stock",
   "leadTime": "",
   "hidden": false,
-  "order": 11
+  "order": 11,
+  "department": "Women"
  },
  {
   "id": "gulzar-3-piece-lawn",
@@ -400,7 +412,8 @@
   "status": "in_stock",
   "leadTime": "",
   "hidden": false,
-  "order": 12
+  "order": 12,
+  "department": "Women"
  },
  {
   "id": "bahar-embroidered-lawn",
@@ -427,7 +440,8 @@
   "status": "in_stock",
   "leadTime": "",
   "hidden": false,
-  "order": 13
+  "order": 13,
+  "department": "Women"
  },
  {
   "id": "saba-grey-karandi",
@@ -454,7 +468,8 @@
   "status": "in_stock",
   "leadTime": "",
   "hidden": false,
-  "order": 14
+  "order": 14,
+  "department": "Women"
  },
  {
   "id": "raat-rani-jacquard",
@@ -481,6 +496,984 @@
   "status": "in_stock",
   "leadTime": "",
   "hidden": false,
-  "order": 15
+  "order": 15,
+  "department": "Women"
+ },
+ {
+  "id": "gul-e-lala-printed-kurta-set",
+  "name": "Gul-e-Lala Printed Kurta Set",
+  "category": "Ready to Wear",
+  "department": "Women",
+  "price": 7490,
+  "discount": 0,
+  "sku": "RS-RTW-201",
+  "color": "White",
+  "colors": [],
+  "fabric": "Cotton lawn",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1745313452052-0e4e341f326c?auto=format&fit=crop&q=80"
+  ],
+  "description": "A crisp white block-printed kurta with matching trousers — easy, breathable everyday wear.",
+  "details": "2-piece: kurta and trousers\nMachine wash cold",
+  "badge": "New",
+  "bestSeller": false,
+  "newArrival": true,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 16
+ },
+ {
+  "id": "pari-pink-embroidered-kurta",
+  "name": "Pari Pink Embroidered Kurta",
+  "category": "Ready to Wear",
+  "department": "Women",
+  "price": 8990,
+  "discount": 0,
+  "sku": "RS-RTW-202",
+  "color": "Pink",
+  "colors": [],
+  "fabric": "Cambric",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1741847639057-b51a25d42892?auto=format&fit=crop&q=80"
+  ],
+  "description": "A soft pink straight kurta with tonal embroidery on the yoke and sleeves.",
+  "details": "2-piece: kurta and trousers",
+  "badge": "New",
+  "bestSeller": false,
+  "newArrival": true,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 17
+ },
+ {
+  "id": "mehr-chikankari-kurta",
+  "name": "Mehr Chikankari Kurta",
+  "category": "Ready to Wear",
+  "department": "Women",
+  "price": 9500,
+  "discount": 0,
+  "sku": "RS-RTW-203",
+  "color": "Maroon",
+  "colors": [],
+  "fabric": "Cotton",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1708534419572-6e6614a53ca1?auto=format&fit=crop&q=80"
+  ],
+  "description": "A deep maroon kurta finished with fine white chikankari threadwork.",
+  "details": "Kurta only\nPair with our Bottoms collection",
+  "badge": "Bestseller",
+  "bestSeller": true,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 18
+ },
+ {
+  "id": "zard-yellow-anarkali",
+  "name": "Zard Yellow Anarkali",
+  "category": "Ready to Wear",
+  "department": "Women",
+  "price": 11990,
+  "discount": 0,
+  "sku": "RS-RTW-204",
+  "color": "Yellow",
+  "colors": [],
+  "fabric": "Khaddar silk",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1760287363878-1a09af715b80?auto=format&fit=crop&q=80"
+  ],
+  "description": "A flared yellow anarkali with gold buttons, perfect for mayun and dholki.",
+  "details": "3-piece: anarkali, trousers and dupatta",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 19
+ },
+ {
+  "id": "sabz-gharara-set",
+  "name": "Sabz Gharara Set",
+  "category": "Ready to Wear",
+  "department": "Women",
+  "price": 14500,
+  "discount": 10,
+  "sku": "RS-RTW-205",
+  "color": "Green",
+  "colors": [],
+  "fabric": "Lawn & net",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1597983073750-16f5ded1321f?auto=format&fit=crop&q=80"
+  ],
+  "description": "A festive short kurta with an emerald gharara and contrast dupatta.",
+  "details": "3-piece: kurta, gharara and dupatta",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 20
+ },
+ {
+  "id": "neelam-printed-frock",
+  "name": "Neelam Printed Frock",
+  "category": "Ready to Wear",
+  "department": "Women",
+  "price": 10490,
+  "discount": 0,
+  "sku": "RS-RTW-206",
+  "color": "Blue",
+  "colors": [],
+  "fabric": "Cotton silk",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1760287364219-160c234ded00?auto=format&fit=crop&q=80"
+  ],
+  "description": "A navy printed frock with a full flare and lace-trimmed sleeves.",
+  "details": "Frock only",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 21
+ },
+ {
+  "id": "mustard-straight-trousers",
+  "name": "Mustard Straight Trousers",
+  "category": "Bottoms",
+  "department": "Women",
+  "price": 3490,
+  "discount": 0,
+  "sku": "RS-BTM-207",
+  "color": "Yellow",
+  "colors": [],
+  "fabric": "Cotton twill",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1789110519976-ea1f044db897?auto=format&fit=crop&q=80"
+  ],
+  "description": "Tailored mustard trousers with a straight leg — pairs with any kurta.",
+  "details": "Elasticated back waist\nTwo side pockets",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": true,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 22
+ },
+ {
+  "id": "olive-culottes",
+  "name": "Olive Culottes",
+  "category": "Bottoms",
+  "department": "Women",
+  "price": 3990,
+  "discount": 0,
+  "sku": "RS-BTM-208",
+  "color": "Green",
+  "colors": [],
+  "fabric": "Viscose",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1789110853466-4a541d4183a3?auto=format&fit=crop&q=80"
+  ],
+  "description": "Wide, flowing olive culottes for an easy, modern silhouette.",
+  "details": "Elasticated waist",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 23
+ },
+ {
+  "id": "brown-drawstring-pants",
+  "name": "Brown Drawstring Pants",
+  "category": "Bottoms",
+  "department": "Women",
+  "price": 3290,
+  "discount": 0,
+  "sku": "RS-BTM-209",
+  "color": "Brown",
+  "colors": [],
+  "fabric": "Linen blend",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1789110520148-bb52ba37759b?auto=format&fit=crop&q=80"
+  ],
+  "description": "Relaxed linen-blend pants with a drawstring waist.",
+  "details": "Drawstring waist\nSide pockets",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 24
+ },
+ {
+  "id": "striped-palazzo",
+  "name": "Striped Palazzo",
+  "category": "Bottoms",
+  "department": "Women",
+  "price": 3790,
+  "discount": 0,
+  "sku": "RS-BTM-210",
+  "color": "White",
+  "colors": [],
+  "fabric": "Cotton",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1789110854083-e4752bded644?auto=format&fit=crop&q=80"
+  ],
+  "description": "Breezy ivory palazzo pants with fine navy stripes.",
+  "details": "Elasticated waist",
+  "badge": "Bestseller",
+  "bestSeller": true,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 25
+ },
+ {
+  "id": "moti-pleated-handbag",
+  "name": "Moti Pleated Handbag",
+  "category": "Bags & Clutches",
+  "department": "Accessories",
+  "price": 6990,
+  "discount": 0,
+  "sku": "RS-BAG-211",
+  "color": "Ivory",
+  "colors": [],
+  "fabric": "Faux leather",
+  "sizes": [
+   "One size"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1761646238176-b480909e6ba6?auto=format&fit=crop&q=80"
+  ],
+  "description": "A cream pleated handbag with a curved top handle — elegant for day or evening.",
+  "details": "Magnetic closure\nInner zip pocket",
+  "badge": "New",
+  "bestSeller": false,
+  "newArrival": true,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 26
+ },
+ {
+  "id": "laal-top-handle-bag",
+  "name": "Laal Top-Handle Bag",
+  "category": "Bags & Clutches",
+  "department": "Accessories",
+  "price": 8490,
+  "discount": 0,
+  "sku": "RS-BAG-212",
+  "color": "Red",
+  "colors": [],
+  "fabric": "Faux leather",
+  "sizes": [
+   "One size"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&q=80"
+  ],
+  "description": "A structured red top-handle bag with a detachable shoulder strap.",
+  "details": "Detachable strap\nFits a phone and wallet",
+  "badge": "Bestseller",
+  "bestSeller": true,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 27
+ },
+ {
+  "id": "ivory-mini-bag",
+  "name": "Ivory Mini Bag",
+  "category": "Bags & Clutches",
+  "department": "Accessories",
+  "price": 5990,
+  "discount": 0,
+  "sku": "RS-BAG-213",
+  "color": "Ivory",
+  "colors": [],
+  "fabric": "Faux leather",
+  "sizes": [
+   "One size"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1682745230951-8a5aa9a474a0?auto=format&fit=crop&q=80"
+  ],
+  "description": "A compact ivory mini bag that goes with every outfit.",
+  "details": "Chain strap",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 28
+ },
+ {
+  "id": "chandi-beaded-potli",
+  "name": "Chandi Beaded Potli",
+  "category": "Bags & Clutches",
+  "department": "Accessories",
+  "price": 3490,
+  "discount": 0,
+  "sku": "RS-BAG-214",
+  "color": "Silver",
+  "colors": [],
+  "fabric": "Satin & beads",
+  "sizes": [
+   "One size"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1598552105309-9243044d2002?auto=format&fit=crop&q=80"
+  ],
+  "description": "A silver potli bag with hand-sewn beads — the perfect wedding companion.",
+  "details": "Drawstring closure",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 29
+ },
+ {
+  "id": "gold-jhumka-earrings",
+  "name": "Gold Jhumka Earrings",
+  "category": "Jewellery",
+  "department": "Accessories",
+  "price": 2490,
+  "discount": 0,
+  "sku": "RS-JWL-215",
+  "color": "Gold",
+  "colors": [],
+  "fabric": "Gold-plated alloy",
+  "sizes": [
+   "One size"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1714733831162-0a6e849141be?auto=format&fit=crop&q=80"
+  ],
+  "description": "Classic two-tone jhumkas with delicate bead drops.",
+  "details": "Push-back closure\nNickel free",
+  "badge": "Bestseller",
+  "bestSeller": true,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 30
+ },
+ {
+  "id": "kundan-necklace-set",
+  "name": "Kundan Necklace Set",
+  "category": "Jewellery",
+  "department": "Accessories",
+  "price": 12990,
+  "discount": 0,
+  "sku": "RS-JWL-216",
+  "color": "Gold",
+  "colors": [],
+  "fabric": "Kundan & pearls",
+  "sizes": [
+   "One size"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1722410180687-b05b50922362?auto=format&fit=crop&q=80"
+  ],
+  "description": "A statement kundan necklace with matching earrings for weddings and formal events.",
+  "details": "Necklace and earrings",
+  "badge": "Signature",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 31
+ },
+ {
+  "id": "sunehri-bead-necklace",
+  "name": "Sunehri Bead Necklace",
+  "category": "Jewellery",
+  "department": "Accessories",
+  "price": 4990,
+  "discount": 0,
+  "sku": "RS-JWL-217",
+  "color": "Gold",
+  "colors": [],
+  "fabric": "Gold-plated beads",
+  "sizes": [
+   "One size"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1600862754152-80a263dd564f?auto=format&fit=crop&q=80"
+  ],
+  "description": "A layered gold and red bead necklace with a traditional finish.",
+  "details": "Adjustable cord",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 32
+ },
+ {
+  "id": "neelam-party-set",
+  "name": "Neelam Party Set",
+  "category": "Jewellery",
+  "department": "Accessories",
+  "price": 9990,
+  "discount": 0,
+  "sku": "RS-JWL-218",
+  "color": "Blue",
+  "colors": [],
+  "fabric": "Crystal & zircon",
+  "sizes": [
+   "One size"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1770722272510-ef28c6f57541?auto=format&fit=crop&q=80"
+  ],
+  "description": "A sparkling sapphire-blue necklace and earring set.",
+  "details": "Necklace and earrings",
+  "badge": "New",
+  "bestSeller": false,
+  "newArrival": true,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 33
+ },
+ {
+  "id": "laal-velvet-khussa",
+  "name": "Laal Velvet Khussa",
+  "category": "Footwear",
+  "department": "Accessories",
+  "price": 3990,
+  "discount": 0,
+  "sku": "RS-FTW-219",
+  "color": "Red",
+  "colors": [],
+  "fabric": "Velvet",
+  "sizes": [
+   "36",
+   "37",
+   "38",
+   "39",
+   "40",
+   "41"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1777980157996-6f689bb393ab?auto=format&fit=crop&q=80"
+  ],
+  "description": "Hand-embroidered red velvet khussa — comfortable and festive.",
+  "details": "Padded insole",
+  "badge": "Bestseller",
+  "bestSeller": true,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 34
+ },
+ {
+  "id": "tilla-khussa",
+  "name": "Tilla Khussa",
+  "category": "Footwear",
+  "department": "Accessories",
+  "price": 3490,
+  "discount": 0,
+  "sku": "RS-FTW-220",
+  "color": "Gold",
+  "colors": [],
+  "fabric": "Leather",
+  "sizes": [
+   "36",
+   "37",
+   "38",
+   "39",
+   "40",
+   "41"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1777980157986-6dcf6ab07790?auto=format&fit=crop&q=80"
+  ],
+  "description": "Traditional khussa with tilla embroidery in red and tan.",
+  "details": "Leather sole",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 35
+ },
+ {
+  "id": "kolhapuri-flats",
+  "name": "Kolhapuri Flats",
+  "category": "Footwear",
+  "department": "Accessories",
+  "price": 2990,
+  "discount": 0,
+  "sku": "RS-FTW-221",
+  "color": "Brown",
+  "colors": [],
+  "fabric": "Leather",
+  "sizes": [
+   "36",
+   "37",
+   "38",
+   "39",
+   "40",
+   "41"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1777979926350-bd684446744b?auto=format&fit=crop&q=80"
+  ],
+  "description": "Handcrafted tan kolhapuri flats for everyday comfort.",
+  "details": "Toe-ring style",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 36
+ },
+ {
+  "id": "nude-court-heels",
+  "name": "Nude Court Heels",
+  "category": "Footwear",
+  "department": "Accessories",
+  "price": 5490,
+  "discount": 0,
+  "sku": "RS-FTW-222",
+  "color": "Beige",
+  "colors": [],
+  "fabric": "Faux leather",
+  "sizes": [
+   "36",
+   "37",
+   "38",
+   "39",
+   "40",
+   "41"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?auto=format&fit=crop&q=80"
+  ],
+  "description": "Classic pointed court heels in a soft nude shade.",
+  "details": "3-inch heel",
+  "badge": "New",
+  "bestSeller": false,
+  "newArrival": true,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 37
+ },
+ {
+  "id": "rang-chiffon-dupatta",
+  "name": "Rang Chiffon Dupatta",
+  "category": "Shawls & Wraps",
+  "department": "Accessories",
+  "price": 2990,
+  "discount": 0,
+  "sku": "RS-WRP-223",
+  "color": "Multi",
+  "colors": [],
+  "fabric": "Chiffon",
+  "sizes": [
+   "One size"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1737988007411-e85aa733efa1?auto=format&fit=crop&q=80"
+  ],
+  "description": "Lightweight chiffon dupattas in a range of seasonal colours — ask us on WhatsApp for shades.",
+  "details": "2.5 m length",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 38
+ },
+ {
+  "id": "ivory-crochet-wrap",
+  "name": "Ivory Crochet Wrap",
+  "category": "Shawls & Wraps",
+  "department": "Accessories",
+  "price": 4490,
+  "discount": 0,
+  "sku": "RS-WRP-224",
+  "color": "Ivory",
+  "colors": [],
+  "fabric": "Cotton crochet",
+  "sizes": [
+   "One size"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&q=80"
+  ],
+  "description": "A soft crochet poncho-wrap with fringe — layer it over any outfit.",
+  "details": "One size fits most",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 39
+ },
+ {
+  "id": "satin-lace-camisole",
+  "name": "Satin Lace Camisole",
+  "category": "Camisoles & Slips",
+  "department": "Innerwear",
+  "price": 2490,
+  "discount": 0,
+  "sku": "RS-CAM-225",
+  "color": "Black",
+  "colors": [],
+  "fabric": "Satin",
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1770294758971-44fa1eae61a3?auto=format&fit=crop&q=80"
+  ],
+  "description": "A smooth satin camisole with a lace trim — wear it under sheer kurtas or on its own.",
+  "details": "Adjustable straps",
+  "badge": "New",
+  "bestSeller": false,
+  "newArrival": true,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 40
+ },
+ {
+  "id": "satin-cami-shorts-set",
+  "name": "Satin Cami & Shorts Set",
+  "category": "Nightwear",
+  "department": "Innerwear",
+  "price": 3490,
+  "discount": 0,
+  "sku": "RS-NGT-226",
+  "color": "Black",
+  "colors": [],
+  "fabric": "Satin",
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1584061606850-a57652a323a4?auto=format&fit=crop&q=80"
+  ],
+  "description": "A soft black satin camisole and shorts sleep set.",
+  "details": "2-piece set",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 41
+ },
+ {
+  "id": "lace-comfort-bra",
+  "name": "Lace Comfort Bra",
+  "category": "Bras",
+  "department": "Innerwear",
+  "price": 1990,
+  "discount": 0,
+  "sku": "RS-BRA-227",
+  "color": "Nude",
+  "colors": [],
+  "fabric": "Lace & cotton",
+  "sizes": [
+   "32B",
+   "34B",
+   "36B",
+   "38B",
+   "34C",
+   "36C",
+   "38C"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1568441556126-f36ae0900180?auto=format&fit=crop&q=80"
+  ],
+  "description": "A lightly lined everyday bra with a soft lace overlay.",
+  "details": "Adjustable straps\nHook-and-eye back",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 42
+ },
+ {
+  "id": "seamless-sports-bra",
+  "name": "Seamless Sports Bra",
+  "category": "Bras",
+  "department": "Innerwear",
+  "price": 1790,
+  "discount": 0,
+  "sku": "RS-BRA-228",
+  "color": "Black",
+  "colors": [],
+  "fabric": "Stretch nylon",
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1595909315417-2edd382a56dc?auto=format&fit=crop&q=80"
+  ],
+  "description": "A seamless, supportive sports bra for workouts and everyday comfort.",
+  "details": "Removable pads",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 43
+ },
+ {
+  "id": "sky-blue-pajama-set",
+  "name": "Sky Blue Pajama Set",
+  "category": "Nightwear",
+  "department": "Innerwear",
+  "price": 3990,
+  "discount": 0,
+  "sku": "RS-NGT-229",
+  "color": "Blue",
+  "colors": [],
+  "fabric": "Cotton",
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1768696082915-bdc6774f94c7?auto=format&fit=crop&q=80"
+  ],
+  "description": "A classic button-down pajama set in sky blue with white piping.",
+  "details": "2-piece: shirt and pajama",
+  "badge": "New",
+  "bestSeller": false,
+  "newArrival": true,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 44
+ },
+ {
+  "id": "blush-pajama-set",
+  "name": "Blush Pajama Set",
+  "category": "Nightwear",
+  "department": "Innerwear",
+  "price": 3990,
+  "discount": 0,
+  "sku": "RS-NGT-230",
+  "color": "Pink",
+  "colors": [],
+  "fabric": "Cotton",
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1768696082668-411638a55476?auto=format&fit=crop&q=80"
+  ],
+  "description": "A soft blush-pink pajama set with contrast trim.",
+  "details": "2-piece: shirt and pajama",
+  "badge": "Bestseller",
+  "bestSeller": true,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 45
+ },
+ {
+  "id": "bagh-printed-night-suit",
+  "name": "Bagh Printed Night Suit",
+  "category": "Nightwear",
+  "department": "Innerwear",
+  "price": 4490,
+  "discount": 0,
+  "sku": "RS-NGT-231",
+  "color": "Green",
+  "colors": [],
+  "fabric": "Cotton lawn",
+  "sizes": [
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1649140334263-7b5291d20519?auto=format&fit=crop&q=80"
+  ],
+  "description": "A breathable printed lawn night suit for warm nights.",
+  "details": "2-piece: shirt and pajama",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 46
+ },
+ {
+  "id": "blush-satin-robe",
+  "name": "Blush Satin Robe",
+  "category": "Nightwear",
+  "department": "Innerwear",
+  "price": 5490,
+  "discount": 0,
+  "sku": "RS-NGT-232",
+  "color": "Pink",
+  "colors": [],
+  "fabric": "Satin",
+  "sizes": [
+   "S/M",
+   "L/XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1766056278976-87f269e3b69c?auto=format&fit=crop&q=80"
+  ],
+  "description": "A luxurious blush satin robe with a tie waist.",
+  "details": "Tie belt",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 47
+ },
+ {
+  "id": "powder-blue-robe",
+  "name": "Powder Blue Robe",
+  "category": "Nightwear",
+  "department": "Innerwear",
+  "price": 5990,
+  "discount": 0,
+  "sku": "RS-NGT-233",
+  "color": "Blue",
+  "colors": [],
+  "fabric": "Cotton terry",
+  "sizes": [
+   "S/M",
+   "L/XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1770294759006-356f25f4f156?auto=format&fit=crop&q=80"
+  ],
+  "description": "A cosy powder-blue robe with a contrast shawl collar.",
+  "details": "Tie belt\nTwo pockets",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 48
  }
 ]

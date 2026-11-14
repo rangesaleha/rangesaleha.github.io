@@ -18,6 +18,8 @@
   const byId = id => P.find(p => p.id === id);
   const finalPrice = p => p.discount > 0 ? Math.round(p.price * (100 - p.discount) / 100) : p.price;
   const soldOut = p => p.status === 'sold_out';
+  const DEPT = {'Ready to Wear':'Women','Luxury Prêt':'Women','Formal':'Women','Unstitched':'Women','Bottoms':'Women','Bridal':'Bridal','Bags & Clutches':'Accessories','Jewellery':'Accessories','Footwear':'Accessories','Shawls & Wraps':'Accessories','Camisoles & Slips':'Innerwear','Bras':'Innerwear','Nightwear':'Innerwear'};
+  const dept = p => p.department || DEPT[p.category] || 'Women';
 
   function toast(msg){
     let t = $('.toast'); if(!t){ t = document.createElement('div'); t.className='toast'; t.setAttribute('role','status'); document.body.appendChild(t); }
@@ -82,6 +84,7 @@ ${soldOut(p) ? '' : `<button class="btn btn-gold quick" type="button" data-quick
   /* ---------- header ---------- */
   const mt = $('.menu-toggle'), nav = $('.nav');
   if(mt) mt.addEventListener('click', ()=>{ const o = nav.classList.toggle('open'); mt.setAttribute('aria-expanded', o); });
+  $$('.sub-toggle').forEach(b => b.addEventListener('click', () => { const li = b.closest('li'); const o = li.classList.toggle('open'); b.setAttribute('aria-expanded', o); b.textContent = o ? '–' : '+'; }));
   const st = $('[data-search-toggle]'), sp = $('.search-panel');
   if(st) st.addEventListener('click', ()=>{ const o = sp.classList.toggle('open'); st.setAttribute('aria-expanded', o); if(o) $('input', sp).focus(); });
   const track = $('.promo-track');
@@ -121,29 +124,38 @@ ${soldOut(p) ? '' : `<button class="btn btn-gold quick" type="button" data-quick
   }
 
   /* ---------- category grids (e.g. wedding edit) ---------- */
-  $$('[data-cat-grid]').forEach(g => fill(g, P.filter(p => p.category === g.dataset.catGrid)));
+  $$('[data-cat-grid]').forEach(g => fill(g, P.filter(p => p.category === g.dataset.catGrid).slice(0, +g.dataset.limit || 99)));
+  $$('[data-dept-grid]').forEach(g => fill(g, P.filter(p => dept(p) === g.dataset.deptGrid).slice(0, +g.dataset.limit || 99)));
 
   /* ---------- shop ---------- */
   const shop = $('#shop-grid');
   if(shop){
     if(matchMedia('(max-width:900px)').matches) $('details.filters')?.removeAttribute('open');
     const params = new URLSearchParams(location.search);
+    const depts = ['Women','Bridal','Accessories','Innerwear'].filter(d => P.some(p => dept(p) === d)).concat([...new Set(P.map(dept))].filter(d => !['Women','Bridal','Accessories','Innerwear'].includes(d)));
     const cats = [...new Set(P.map(p => p.category))];
     const colors = [...new Set(P.map(p => p.color).filter(Boolean))].sort();
+    $('#f-dept').innerHTML = depts.map(c => `<label><input type="checkbox" name="dept" value="${esc(c)}"> ${esc(c)}</label>`).join('');
     $('#f-cat').innerHTML = cats.map(c => `<label><input type="checkbox" name="cat" value="${esc(c)}"> ${esc(c)}</label>`).join('');
     $('#f-color').innerHTML = colors.map(c => `<label><input type="checkbox" name="color" value="${esc(c)}"> ${esc(c)}</label>`).join('');
-    const cat = params.get('cat'), q = (params.get('q')||'').toLowerCase().trim();
+    const cat = params.get('cat'), dp = params.get('dept'), onlyNew = params.get('new'), q = (params.get('q')||'').toLowerCase().trim();
     if(cat){ const box = $(`input[name=cat][value="${CSS.escape(cat)}"]`); if(box) box.checked = true; }
+    if(dp){ const box = $(`input[name=dept][value="${CSS.escape(dp)}"]`); if(box) box.checked = true; }
     if(params.get('sale')) $('#f-sale').checked = true;
-    if(q) $('#shop-title').firstChild.textContent = 'Search: “' + params.get('q') + '” · ';
+    const label = q ? 'Search: “' + params.get('q') + '”' : onlyNew ? 'New arrivals' : cat ? cat : dp ? (dp === 'Women' ? "Women's wear" : dp) : params.get('sale') ? 'On sale' : 'All designs';
+    $('#shop-label').textContent = label;
+    const h1 = $('.page-head h1'); if(h1 && label !== 'All designs' && !q) h1.textContent = label;
+    if(label !== 'All designs') document.title = label + ' | Rang-e-Saleha';
     const apply = () => {
       const cs = $$('input[name=cat]:checked').map(i=>i.value);
+      const ds = $$('input[name=dept]:checked').map(i=>i.value);
       const cl = $$('input[name=color]:checked').map(i=>i.value);
       const price = ($('input[name=price]:checked')||{}).value || 'all';
       const sale = $('#f-sale').checked, sort = $('#sort').value;
       let list = P.filter(p => {
         const pr = finalPrice(p);
-        let ok = (!cs.length || cs.includes(p.category)) && (!cl.length || cl.includes(p.color));
+        let ok = (!cs.length || cs.includes(p.category)) && (!ds.length || ds.includes(dept(p))) && (!cl.length || cl.includes(p.color));
+        if(onlyNew) ok = ok && p.newArrival;
         if(price==='u25') ok = ok && pr < 25000; if(price==='25-100') ok = ok && pr>=25000 && pr<=100000; if(price==='o100') ok = ok && pr>100000;
         if(sale) ok = ok && p.discount > 0;
         if(q) ok = ok && `${p.name} ${p.category} ${p.color} ${p.fabric} ${p.description}`.toLowerCase().includes(q);
