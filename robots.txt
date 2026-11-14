@@ -3,5 +3,6 @@ Allow: /
 Disallow: /cart.html
 Disallow: /account.html
 Disallow: /wishlist.html
+Disallow: /admin.html
 
 Sitemap: https://rangesaleha.github.io/sitemap.xml

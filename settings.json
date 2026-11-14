@@ -1,0 +1,28 @@
+{
+ "promo": [
+  "Free delivery across Pakistan on orders above PKR 15,000",
+  "New bridal collection — book your appointment",
+  "Order easily on WhatsApp · 0329 9848040"
+ ],
+ "hero": {
+  "eyebrow": "Bridal Couture 2026",
+  "title": "Where every colour tells your story",
+  "subtitle": "Handcrafted bridal, formal and luxury wear — embroidered with heritage, made for your most precious moments.",
+  "images": [
+   "https://images.unsplash.com/photo-1747847470997-73ae2cd1cfaa?auto=format&fit=crop&q=80",
+   "https://images.unsplash.com/photo-1721324807072-784ab8ddf166?auto=format&fit=crop&q=80",
+   "https://images.unsplash.com/photo-1733470381436-bb5a2a441708?auto=format&fit=crop&q=80"
+  ]
+ },
+ "sale": {
+  "enabled": false,
+  "text": "Winter Sale — up to 30% off selected designs"
+ },
+ "freeDeliveryAbove": 15000,
+ "deliveryFee": 350,
+ "whatsapp": "923299848040",
+ "phone": "0329 9848040",
+ "email": "rangesaleha@gmail.com",
+ "address": "[Studio address, City]",
+ "hours": "Monday – Saturday, 11am – 8pm"
+}

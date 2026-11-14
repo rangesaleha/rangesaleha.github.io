@@ -1,0 +1,486 @@
+[
+ {
+  "id": "noor-jahan-bridal-lehenga",
+  "name": "Noor Jahan Bridal Lehenga",
+  "category": "Bridal",
+  "price": 485000,
+  "discount": 0,
+  "sku": "RS-BRI-101",
+  "color": "Red",
+  "colors": [],
+  "fabric": "Raw silk & net",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "Custom"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1747847471517-952a3eb93a89?auto=format&fit=crop&q=80",
+   "https://images.unsplash.com/photo-1747847471528-7b95ea7a4c39?auto=format&fit=crop&q=80"
+  ],
+  "description": "A regal red lehenga hand-embellished with zardozi, dabka and tilla work, paired with a long embroidered choli and a scalloped net dupatta.",
+  "details": "Includes choli/shirt, lehenga or gharara, and dupatta\nMade to order in 6–8 weeks\nCustom sizing available",
+  "badge": "Signature",
+  "bestSeller": true,
+  "newArrival": false,
+  "status": "made_to_order",
+  "leadTime": "6–8 weeks",
+  "hidden": false,
+  "order": 0
+ },
+ {
+  "id": "shahzadi-red-gharara",
+  "name": "Shahzadi Red Gharara",
+  "category": "Bridal",
+  "price": 395000,
+  "discount": 0,
+  "sku": "RS-BRI-102",
+  "color": "Red",
+  "colors": [],
+  "fabric": "Jamawar & organza",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "Custom"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1721324807083-e9ddaa99310e?auto=format&fit=crop&q=80",
+   "https://images.unsplash.com/photo-1721324807072-784ab8ddf166?auto=format&fit=crop&q=80"
+  ],
+  "description": "A classic bridal gharara in deep red with gold kora-dabka work on the short shirt and a heavily bordered organza dupatta.",
+  "details": "Includes choli/shirt, lehenga or gharara, and dupatta\nMade to order in 6–8 weeks\nCustom sizing available",
+  "badge": "New",
+  "bestSeller": false,
+  "newArrival": true,
+  "status": "made_to_order",
+  "leadTime": "6–8 weeks",
+  "hidden": false,
+  "order": 1
+ },
+ {
+  "id": "mehrunisa-farshi-lehenga",
+  "name": "Mehrunisa Farshi Lehenga",
+  "category": "Bridal",
+  "price": 450000,
+  "discount": 0,
+  "sku": "RS-BRI-103",
+  "color": "Red",
+  "colors": [],
+  "fabric": "Pure silk & tissue",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "Custom"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1634990107480-1422c742f9b5?auto=format&fit=crop&q=80",
+   "https://images.unsplash.com/photo-1677691257001-8bfd91e288ff?auto=format&fit=crop&q=80"
+  ],
+  "description": "A floor-sweeping farshi lehenga with an embellished kameez and double dupattas, inspired by Mughal court dressing.",
+  "details": "Includes choli/shirt, lehenga or gharara, and dupatta\nMade to order in 6–8 weeks\nCustom sizing available",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "made_to_order",
+  "leadTime": "6–8 weeks",
+  "hidden": false,
+  "order": 2
+ },
+ {
+  "id": "gulnar-bridal-sharara",
+  "name": "Gulnar Bridal Sharara",
+  "category": "Bridal",
+  "price": 365000,
+  "discount": 0,
+  "sku": "RS-BRI-104",
+  "color": "Red",
+  "colors": [],
+  "fabric": "Raw silk & chiffon",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "Custom"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1600685890506-593fdf55949b?auto=format&fit=crop&q=80",
+   "https://images.unsplash.com/photo-1631549423660-c10874dc335f?auto=format&fit=crop&q=80"
+  ],
+  "description": "A traditional sharara set with a hand-embroidered peplum shirt, finished with pearls, sequins and resham.",
+  "details": "Includes choli/shirt, lehenga or gharara, and dupatta\nMade to order in 6–8 weeks\nCustom sizing available",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "made_to_order",
+  "leadTime": "6–8 weeks",
+  "hidden": false,
+  "order": 3
+ },
+ {
+  "id": "zarnigar-embroidered-maxi",
+  "name": "Zarnigar Embroidered Maxi",
+  "category": "Formal",
+  "price": 78000,
+  "discount": 12,
+  "sku": "RS-FOR-105",
+  "color": "Purple",
+  "colors": [],
+  "fabric": "Chiffon",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1733731402869-57e0cce24aea?auto=format&fit=crop&q=80",
+   "https://images.unsplash.com/photo-1705920824583-0e783235394d?auto=format&fit=crop&q=80"
+  ],
+  "description": "A flowing purple maxi with a hand-worked neckline and sleeves, ideal for mehndi, nikkah guests and dinner events.",
+  "details": "Includes shirt, trousers and dupatta\nCustom sizing available on WhatsApp",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 4
+ },
+ {
+  "id": "shireen-velvet-ensemble",
+  "name": "Shireen Velvet Ensemble",
+  "category": "Formal",
+  "price": 74000,
+  "discount": 0,
+  "sku": "RS-FOR-106",
+  "color": "Purple",
+  "colors": [],
+  "fabric": "Velvet & organza",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1705920824583-0e783235394d?auto=format&fit=crop&q=80",
+   "https://images.unsplash.com/photo-1733731402869-57e0cce24aea?auto=format&fit=crop&q=80"
+  ],
+  "description": "A rich velvet shirt with antique-gold embroidery, straight trousers and a tissue dupatta for winter weddings.",
+  "details": "Includes shirt, trousers and dupatta\nCustom sizing available on WhatsApp",
+  "badge": "New",
+  "bestSeller": false,
+  "newArrival": true,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 5
+ },
+ {
+  "id": "laal-pari-formal",
+  "name": "Laal Pari Formal",
+  "category": "Formal",
+  "price": 59900,
+  "discount": 0,
+  "sku": "RS-FOR-107",
+  "color": "Red",
+  "colors": [],
+  "fabric": "Organza",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1707576618343-26a1b377ca7a?auto=format&fit=crop&q=80",
+   "https://images.unsplash.com/photo-1631549423034-ceb712f24ab2?auto=format&fit=crop&q=80"
+  ],
+  "description": "A crimson organza formal with floral threadwork, a scalloped hem and a matching embroidered dupatta.",
+  "details": "Includes shirt, trousers and dupatta\nCustom sizing available on WhatsApp",
+  "badge": "Bestseller",
+  "bestSeller": true,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 6
+ },
+ {
+  "id": "nilofar-chiffon-formal",
+  "name": "Nilofar Chiffon Formal",
+  "category": "Formal",
+  "price": 62500,
+  "discount": 0,
+  "sku": "RS-FOR-108",
+  "color": "Blue",
+  "colors": [],
+  "fabric": "Chiffon",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1614098097306-c67b8020c04e?auto=format&fit=crop&q=80",
+   "https://images.unsplash.com/photo-1610276347467-2f3a6053d297?auto=format&fit=crop&q=80"
+  ],
+  "description": "A soft blue and ivory chiffon formal with delicate floral embroidery and a lightweight dupatta.",
+  "details": "Includes shirt, trousers and dupatta\nCustom sizing available on WhatsApp",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 7
+ },
+ {
+  "id": "ayla-organza-kurta-set",
+  "name": "Ayla Organza Kurta Set",
+  "category": "Luxury Prêt",
+  "price": 24900,
+  "discount": 0,
+  "sku": "RS-LUX-109",
+  "color": "Red",
+  "colors": [],
+  "fabric": "Organza",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1733470381571-c3d082e68457?auto=format&fit=crop&q=80",
+   "https://images.unsplash.com/photo-1733470381436-bb5a2a441708?auto=format&fit=crop&q=80"
+  ],
+  "description": "A ready-to-wear organza kurta with embroidered yoke, cigarette pants and a printed dupatta.",
+  "details": "Ready to wear\nIncludes shirt and trousers",
+  "badge": "New",
+  "bestSeller": false,
+  "newArrival": true,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 8
+ },
+ {
+  "id": "rania-silk-co-ord",
+  "name": "Rania Silk Co-ord",
+  "category": "Luxury Prêt",
+  "price": 21500,
+  "discount": 0,
+  "sku": "RS-LUX-110",
+  "color": "Ivory",
+  "colors": [],
+  "fabric": "Silk",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1733209589578-97136bee7d7a?auto=format&fit=crop&q=80",
+   "https://images.unsplash.com/photo-1733209590486-4ed0bfcbc52a?auto=format&fit=crop&q=80"
+  ],
+  "description": "A relaxed silk co-ord set with a straight shirt and wide trousers, finished with subtle self-embroidery.",
+  "details": "Ready to wear\nIncludes shirt and trousers",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 9
+ },
+ {
+  "id": "sitara-black-pret",
+  "name": "Sitara Black Prêt",
+  "category": "Luxury Prêt",
+  "price": 22500,
+  "discount": 16,
+  "sku": "RS-LUX-111",
+  "color": "Black",
+  "colors": [],
+  "fabric": "Cotton silk",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1733470381591-c5dfb9df3c3d?auto=format&fit=crop&q=80",
+   "https://images.unsplash.com/photo-1704119142483-1269733bcedb?auto=format&fit=crop&q=80"
+  ],
+  "description": "A monochrome black and ivory prêt shirt with sequinned motifs — dressy enough for evenings.",
+  "details": "Ready to wear\nIncludes shirt and trousers",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 10
+ },
+ {
+  "id": "sunehri-yellow-kurta",
+  "name": "Sunehri Yellow Kurta",
+  "category": "Luxury Prêt",
+  "price": 16500,
+  "discount": 0,
+  "sku": "RS-LUX-112",
+  "color": "Yellow",
+  "colors": [],
+  "fabric": "Lawn & cotton net",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1701252072712-e939599623f2?auto=format&fit=crop&q=80",
+   "https://images.unsplash.com/photo-1733209588000-339b73c36575?auto=format&fit=crop&q=80"
+  ],
+  "description": "A sunny yellow kurta with white threadwork, made for mayun, dholki and daytime festivities.",
+  "details": "Ready to wear\nIncludes shirt and trousers",
+  "badge": "Bestseller",
+  "bestSeller": true,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 11
+ },
+ {
+  "id": "gulzar-3-piece-lawn",
+  "name": "Gulzar 3-Piece Lawn",
+  "category": "Unstitched",
+  "price": 8990,
+  "discount": 0,
+  "sku": "RS-UNS-113",
+  "color": "Pink",
+  "colors": [],
+  "fabric": "Premium lawn",
+  "sizes": [
+   "3-Piece"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1733470324488-d0e10d014d80?auto=format&fit=crop&q=80",
+   "https://images.unsplash.com/photo-1733470381436-bb5a2a441708?auto=format&fit=crop&q=80"
+  ],
+  "description": "Unstitched 3-piece: embroidered lawn front, printed back and sleeves, chiffon dupatta and dyed cambric trousers.",
+  "details": "3-piece unstitched: shirt 3 m, dupatta 2.5 m, trousers 2.5 m",
+  "badge": "New",
+  "bestSeller": false,
+  "newArrival": true,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 12
+ },
+ {
+  "id": "bahar-embroidered-lawn",
+  "name": "Bahar Embroidered Lawn",
+  "category": "Unstitched",
+  "price": 9990,
+  "discount": 0,
+  "sku": "RS-UNS-114",
+  "color": "Ivory",
+  "colors": [],
+  "fabric": "Premium lawn",
+  "sizes": [
+   "3-Piece"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1733209587923-77ff33202f7c?auto=format&fit=crop&q=80",
+   "https://images.unsplash.com/photo-1733209484732-6b094322a89f?auto=format&fit=crop&q=80"
+  ],
+  "description": "Unstitched 3-piece with a schiffli-embroidered front, embroidered neckline patch and a printed silk dupatta.",
+  "details": "3-piece unstitched: shirt 3 m, dupatta 2.5 m, trousers 2.5 m",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 13
+ },
+ {
+  "id": "saba-grey-karandi",
+  "name": "Saba Grey Karandi",
+  "category": "Unstitched",
+  "price": 11500,
+  "discount": 0,
+  "sku": "RS-UNS-115",
+  "color": "Grey",
+  "colors": [],
+  "fabric": "Karandi",
+  "sizes": [
+   "3-Piece"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1773439878338-c61b0fe9ed48?auto=format&fit=crop&q=80",
+   "https://images.unsplash.com/photo-1704119142483-1269733bcedb?auto=format&fit=crop&q=80"
+  ],
+  "description": "Unstitched winter 3-piece in soft grey karandi with a woven shawl and embroidered front.",
+  "details": "3-piece unstitched: shirt 3 m, dupatta 2.5 m, trousers 2.5 m",
+  "badge": "",
+  "bestSeller": false,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 14
+ },
+ {
+  "id": "raat-rani-jacquard",
+  "name": "Raat Rani Jacquard",
+  "category": "Unstitched",
+  "price": 12990,
+  "discount": 0,
+  "sku": "RS-UNS-116",
+  "color": "Black",
+  "colors": [],
+  "fabric": "Jacquard",
+  "sizes": [
+   "3-Piece"
+  ],
+  "images": [
+   "https://images.unsplash.com/photo-1704119142483-1269733bcedb?auto=format&fit=crop&q=80",
+   "https://images.unsplash.com/photo-1733470381591-c5dfb9df3c3d?auto=format&fit=crop&q=80"
+  ],
+  "description": "Unstitched jacquard 3-piece in black with zari weave, an organza dupatta and plain dyed trousers.",
+  "details": "3-piece unstitched: shirt 3 m, dupatta 2.5 m, trousers 2.5 m",
+  "badge": "Bestseller",
+  "bestSeller": true,
+  "newArrival": false,
+  "status": "in_stock",
+  "leadTime": "",
+  "hidden": false,
+  "order": 15
+ }
+]

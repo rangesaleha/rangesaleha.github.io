@@ -287,3 +287,11 @@ table.size th{background:var(--maroon);color:var(--ivory);font-weight:500}
 .toast{position:fixed;left:50%;bottom:30px;transform:translate(-50%,30px);background:var(--kohl);color:var(--gold-l);padding:14px 24px;z-index:80;opacity:0;transition:.3s;font-size:14px;letter-spacing:1px;pointer-events:none}
 .toast.show{opacity:1;transform:translate(-50%,0)}
 .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.sale-bar{background:var(--gold);text-align:center;padding:8px 16px;font-family:var(--caps);font-size:13px;letter-spacing:2px;color:var(--kohl)}
+.card-tag.sold{background:var(--kohl);color:var(--ivory)}
+.card-media img.alt{position:absolute;inset:0;opacity:0;transition:opacity .5s ease}
+.card:hover .card-media img.alt{opacity:1}
+.save{display:inline-block;margin-left:10px;background:var(--gold);color:var(--kohl);font-size:12px;padding:3px 8px;letter-spacing:1px;vertical-align:middle}
+.stock{font-size:14px;color:#1F6B3A;margin:0 0 14px}
+.stock.out{color:var(--maroon)}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
